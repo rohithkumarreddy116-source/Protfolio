@@ -99,13 +99,14 @@ h2 {
     background: linear-gradient(120deg, #ffffff, #e4efff);
 }
 
-..profile-photo {
-    width: 180px;
-    height: 180px;
+.profile-photo {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
     margin: 20px auto;
+}
 
 }
 
