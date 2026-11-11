@@ -99,15 +99,21 @@ h2 {
     background: linear-gradient(120deg, #ffffff, #e4efff);
 }
 
-.img.profile-photo {
-    width: 100px !important;
-    height: 100px !important;
-    max-width: 100px !important;
-    max-height: 100px !important;
-    min-width: 0 !important;
-    min-height: 0 !important;
-    object-fit: cover !important;
-    border-radius: 50% !important;
+..profile-photo-container {
+    width: 160px;
+    height: 160px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-photo-container img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: cover;
+    display: block;
+}
 }
 }
 
